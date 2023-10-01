@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    background-color:black;
+}
+
+header {
+    background-color:black;
+    padding: 0px;  
+}
+
+.text-right {
+
+    margin: 130px;
+    position: absolute;
+    right: 250px;
+    top: 0;
+    font-size: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color:goldenrod;
+  }
+  .logo-img
+  {
+    border-radius: 30%;
+  }
+
+h1 {
+    font-size: xx-large;
+    margin-top: 0;
+}
+
+.navbar ul{
+    list-style: none;
+    background:black;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.navbar li
+{
+
+display: inline-block;
+}
+
+
+
+.navbar a {
+    text-decoration: none;
+    color:white;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.navbar a:hover
+{
+    background-color:green;
+
+}
+
+.hero {
+    background-color: #000;
+    height: 400px;
+}
+
+.hero img {
+    border-radius: 50%;
+    margin-top: 5px;
+    float: right;
+    max-width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.hero h1 {
+    
+    color: goldenrod;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.hero p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.hero a
+{
+    margin-top: 50px;
+    color: goldenrod;
+}
